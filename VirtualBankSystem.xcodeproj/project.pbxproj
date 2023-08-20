@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		042BFD7E2A9111B50079CE65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BFD7D2A9111B50079CE65 /* main.swift */; };
+		042BFD852A9117A60079CE65 /* part1-me.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BFD842A9117A60079CE65 /* part1-me.swift */; };
+		042BFD872A91192D0079CE65 /* part-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BFD862A91192D0079CE65 /* part-1.swift */; };
+		047E97122A914298009B09A3 /* part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E97112A914298009B09A3 /* part2.swift */; };
+		04C3F3862A924BBE0084EFC5 /* VirtualBankSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3F3852A924BBE0084EFC5 /* VirtualBankSystem.swift */; };
+		04C3F3882A924BD90084EFC5 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3F3872A924BD90084EFC5 /* BankAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		042BFD7A2A9111B50079CE65 /* VirtualBankSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualBankSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		042BFD7D2A9111B50079CE65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		042BFD842A9117A60079CE65 /* part1-me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part1-me.swift"; sourceTree = "<group>"; };
+		042BFD862A91192D0079CE65 /* part-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "part-1.swift"; sourceTree = "<group>"; };
+		047E97112A914298009B09A3 /* part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = part2.swift; sourceTree = "<group>"; };
+		04C3F3852A924BBE0084EFC5 /* VirtualBankSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualBankSystem.swift; sourceTree = "<group>"; };
+		04C3F3872A924BD90084EFC5 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,22 @@
 		042BFD7C2A9111B50079CE65 /* VirtualBankSystem */ = {
 			isa = PBXGroup;
 			children = (
+				04C3F3842A924B9B0084EFC5 /* parts */,
 				042BFD7D2A9111B50079CE65 /* main.swift */,
+				04C3F3852A924BBE0084EFC5 /* VirtualBankSystem.swift */,
+				04C3F3872A924BD90084EFC5 /* BankAccount.swift */,
 			);
 			path = VirtualBankSystem;
+			sourceTree = "<group>";
+		};
+		04C3F3842A924B9B0084EFC5 /* parts */ = {
+			isa = PBXGroup;
+			children = (
+				042BFD842A9117A60079CE65 /* part1-me.swift */,
+				042BFD862A91192D0079CE65 /* part-1.swift */,
+				047E97112A914298009B09A3 /* part2.swift */,
+			);
+			path = parts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042BFD852A9117A60079CE65 /* part1-me.swift in Sources */,
+				04C3F3882A924BD90084EFC5 /* BankAccount.swift in Sources */,
+				042BFD872A91192D0079CE65 /* part-1.swift in Sources */,
 				042BFD7E2A9111B50079CE65 /* main.swift in Sources */,
+				047E97122A914298009B09A3 /* part2.swift in Sources */,
+				04C3F3862A924BBE0084EFC5 /* VirtualBankSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
